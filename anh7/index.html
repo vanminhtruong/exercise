@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+
+        .box-circle{
+            background-color: #F2994A;
+            width: 227px;
+            height: 227px;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .box-square{
+            background-color: #fff;
+            width: 113px;
+            height: 113px;
+            position: absolute;
+            z-index: 100;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box-circle">
+            <div class="box-square">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

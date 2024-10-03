@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+
+        .profile-card {
+            background-color: white;
+            border: 2px solid #8CC5F9;
+            border-radius: 20px;
+            width: 650px;
+            padding: 20px;
+            position: relative;
+        }
+
+
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .profile-content {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .profile-img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+
+        .profile-info {
+            width: 300px;
+            margin-left: 20px;
+        }
+
+        .profile-name {
+            font-family: 'Helvetica', sans-serif;
+            font-weight: bold;
+            color: #8CC5F9;
+            font-size: 1.5em;
+            margin-bottom: 2px;
+            transform: translatey(-20px);
+        }
+
+        .profile-text {
+            font-size: 0.9em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .social-icons a {
+            margin-right: 10px;
+        }
+
+        .social-icons img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .profile-quote {
+            font-size: 0.85em;
+            font-style: italic;
+            color: #878ABC;
+            margin-top:30px;
+            font-weight: 100;
+        }
+        .imgClose{
+            width: 20px;
+            margin-left: -5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <div class="profile-content">
+            <img src="man.jpg" alt="Profile Picture" class="profile-img">
+            <div class="profile-info">
+                <h2 class="profile-name"><i>Rot Mitt</i></h2>
+                <p class="profile-text">
+                    Consequuntur est accusantium et nemo. Similique quo atque ut eligendi aspernatur modi ut nemo
+                    dolorem.
+                </p>
+                <p class="profile-text">
+                    Quod suscipit et sapiente et explicabo itaque molestiae laudantium architecto.
+                </p>
+                <div class="social-icons">
+                    <a href="#"><img src="iconM.png" alt="Medium"></a>
+                    <a href="#"><img src="insta.png" alt="Instagram"></a>
+                    <a href="#"><img src="imgIn.png" alt="LinkedIn"></a>
+                </div>
+                <p class="profile-quote">"Consequuntur est accusantium et nemo. Similique quo atque ut
+                    eligendi"</p>
+            </div>
+            <img src="close.png" alt="" class="imgClose">
+        </div>
+    </div>
+</body>
+
+</html>
